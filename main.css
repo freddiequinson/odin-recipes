@@ -39,3 +39,20 @@ span {
     display: inline-block;
     margin: 5px;
 }
+
+button {
+
+    margin: 0px auto;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 3px #807e3d;
+}
+
+button:hover {
+    background-color: bisque;
+}
+button:active {
+    background-color: bisque;
+    box-shadow: 0 1px #807e3d;
+    transform: translateY(4px);
+}
