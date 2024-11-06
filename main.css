@@ -5,16 +5,37 @@ td {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
+.title {
+    background-color: #ff921c;
+}
+
+body {
+    background-color: #eca427;
+}
+
+h1 {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
-    position: relative;
     border: 3px solid green;
   }
   
-  .vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
+img, button {
+    display: block;
+    margin: 1px;
+    font-size: medium;
+}
+ 
+span {
+    display: inline-block;
+    margin: 5px;
+}
