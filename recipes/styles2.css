@@ -1,0 +1,26 @@
+h1 {
+    
+    text-align: center;
+}
+
+/* span {
+    display: block;
+}
+
+img {
+    height: 300;
+    width: auto;
+    margin: auto;
+} */
+
+div {
+    text-align: center;
+}
+
+.intro {
+    text-align: justify;
+}
+
+table {
+    margin: auto;
+}
