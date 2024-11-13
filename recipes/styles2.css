@@ -24,3 +24,7 @@ div {
 table {
     margin: auto;
 }
+
+ul li::marker {
+    color: orange;
+}
