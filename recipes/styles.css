@@ -14,7 +14,7 @@ div{
 table {
     margin: auto;
 }
-ul::marker {
+ul li::marker {
     color: #da871b;
 }
 /* img {
