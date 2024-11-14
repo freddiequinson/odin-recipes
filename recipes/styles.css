@@ -7,6 +7,17 @@ span {
     display: inline-block;
 }
 
-img {
-    margin: 0px auto;
+div{
+    text-align: center;
 }
+
+table {
+    margin: auto;
+}
+ul::marker {
+    color: #da871b;
+}
+/* img {
+    
+    text-align: center;
+} */
